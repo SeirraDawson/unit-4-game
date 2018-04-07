@@ -15,18 +15,18 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Crystals Collector</h1>
-        </div>
+    <div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
 
-            <div class="directions">
-                <h5>Directions</h5>
-                <h5>The four crystals below have a hidden value. Clicking on a crystal will reveal its
-                    random assigned value and add that value to your total score.</h5>
-                <h5>You win the game by matching your total score with the random number displayed below.</h5>
-                <h5>You lose the game if your total score goes above the random number.</h5>
-            </div>
+    <div class="directions">
+        <p>Game Rules</p>
+        <p>The four crystals below have a hidden value.
+            <br>Clicking on a crystal will reveal its random assigned value and add that value to your total score.
+            <br>You win the game by matching your total score with the random number displayed below.
+            <br>You lose the game if your total score goes above the random number.
+        </p>
+    </div>
 
             <div class="random">
                 <h4>Number To Win</h4>
@@ -35,7 +35,10 @@
 
             <div class="scoreBoard">
                 <h4 id="wins">Wins: </h4>
+                <audio id="djKhaled" src="./assets/audio/Baby You Smart You Very Smart.mp3" preload="auto"></audio>
                 <h4 id="losses">Losses: </h4>
+                <audio id="aaliyah" src="./assets/audio/Try_Again_Aaliyah.mp3" preload="auto"></audio>
+
             </div>
 
             <div id="crystals">
@@ -46,10 +49,10 @@
             </div>
 
             <div class="userScore">
-                <h4>Total Score</h4>
+                <h4>Your Score</h4>
                 <h4 id="totalScore"></h4>
             </div>
-    </div>
+
 
 
         <footer class="footer">
@@ -57,7 +60,7 @@
         </footer>
 
 
-        <!-- Linking JavaScript -->
+        <!-- Linking JavaScript & jQuery-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script type="text/javascript" src="./assets/javascript/game.js"></script>

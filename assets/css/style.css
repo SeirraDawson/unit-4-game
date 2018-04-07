@@ -8,23 +8,26 @@ body, html {
 
 
 h1 {
-    font-family: 'Bevan', cursive, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-family: 'Stalemate', cursive, 'Times New Roman', Times, serif;
+    font-size: 75px;
     text-align: center;
-    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 
 }
 .directions {
     font-family: 'Cantata One', Helvetica, sans-serif;
     text-align: center;
-    line-height: 2pt;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-top: -14px;
+    margin-bottom: 5px;
+    margin-left: 325px;
+    width: 600px;
 }
 
 .scoreBoard {
     line-height: 3px;
+    margin-top: -15px;
 }
 
 .image {
@@ -38,24 +41,32 @@ h1 {
 .random {
     border: 3px solid;
     background-color: white;
-    height: 80px;
-    width: 145px;
+    height: 60px;
+    width: 130px;
+    line-height: 5px;
     margin-left: 555px;
     margin-top: 10px;
     margin-bottom: 30px;
-    margin-top: 20px;
-    padding-bottom: 15px;
+    margin-top: 5px;
+    padding-bottom: 10px;
 
+}
+
+#crystals {
+    margin-right: 20px;
 }
 
 .userScore {
     border: 3px solid;
     background-color: white;
-    height: 100px;
+    height: 20px;
     width: 100px;
-    margin-left: 580px;
-    margin-bottom: 20px;
-    margin-top: 32px;
+    line-height: 3px;
+    margin-left: 575px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-top: -25px;
 }
 
 .footer {
@@ -65,6 +76,8 @@ h1 {
     color: rgb(236, 170, 28);
     text-align: center;
     margin-left: 550px;
+    margin-top:  55px;
+    height: 15px;
 }
 
 /*  font-family: 'Bevan', cursive;

@@ -71,7 +71,11 @@
             // New targetNumber is generated
             // New crystal numbers are generated
             function win () {
-                alert ("🗣 You da Best!😉 I appreciate you!👊 \nDJ Khaled");
+                var snd = new Audio('./assets/audio/Baby You Smart You Very Smart.mp3');
+                snd.play();
+                setTimeout(function(){alert("🗣 You da Best!😉 I appreciate you!👊 \nDJ Khaled")},1200);
+                // document.getElementById('djKhaled').play();
+                // alert ("🗣 You da Best!😉 I appreciate you!👊 \nDJ Khaled");
                 wins++;
                 $("#wins").text("Wins: " + wins); //html or text
                 reset();
@@ -84,7 +88,11 @@
         // New targetNumber is generated
         // New crystal numbers are generated
             function loss () {
-                alert ("♫🎶Dust yourself off and try again.🎶♬ \n♭Aalyiah♭");
+                var snd = new Audio('./assets/audio/Try_Again_Aaliyah.mp3');
+                snd.play();
+                setTimeout(function(){alert("♫🎶Dust yourself off and try again.🎶♬ \n♭Aalyiah♭")},1200);
+                // document.getElementById('aaliyah').play();
+                // alert ("♫🎶Dust yourself off and try again.🎶♬ \n♭Aalyiah♭");
                 losses++;
                 $("#losses").text("Losses: " + losses); //html or text
                 reset();
