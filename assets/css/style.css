@@ -1,0 +1,74 @@
+body, html {
+    background-color: #141611;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23284087' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    color: rgb(236, 170, 28);
+    text-align: center;
+
+}
+
+
+h1 {
+    font-family: 'Bevan', cursive, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+
+}
+.directions {
+    font-family: 'Cantata One', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2pt;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.scoreBoard {
+    line-height: 3px;
+}
+
+.image {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 80px;
+    display: inline;
+}
+
+.random {
+    border: 3px solid;
+    background-color: white;
+    height: 80px;
+    width: 145px;
+    margin-left: 555px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.userScore {
+    border: 3px solid;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin-left: 580px;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+.footer {
+    font-family: 'Coming Soon', cursive, 'Times New Roman', Times, serif;
+    position: absolute;
+    clear:both;
+    color: rgb(236, 170, 28);
+    text-align: center;
+    margin-left: 550px;
+}
+
+/*  font-family: 'Bevan', cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Cantata One', serif;
+    font-family: 'Stalemate', cursive;
+    font-family: 'Fascinate Inline', cursive;*/
